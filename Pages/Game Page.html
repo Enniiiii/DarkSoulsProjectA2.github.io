@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Style.css" type="text/css" />
+    <script defer src="../Script.js"></script>
+    <title>Game Page</title>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <img
+      src="../Images/Loading.png"
+      width="10000"
+      height="10000"
+      alt="Bonfire"
+      id="Load"
+    />
+    <div id="content">
+      <!-- Navigation Bar -->
+       <div class="NAV">
+        <a href="Main.html">
+          <img src="../Images/logo.png" alt="Logo" class="logo" />
+        </a>
+        <a href="Main.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Media.html">Media</a>
+        <a href="Reviews.html">Reviews</a>
+        <a class="active" href="Game Page.html">Game Page</a>
+      </div>
+      <!-- Main Content -->
+      <div class="Section">
+        <p id="Starting">Curious about this world eh?</p>
+        <img src="../Images/died.gif" width="550" height="300" id="Title" />
+        <p id="Main3">Be warned, many chosen undead were slain. 
+        <br />
+        <br />
+        and this was YOUR decision to come here.
+        <br />
+        <br />
+        Good luck, and may the flames guide you.
+        </p>
+        <!-- Button to go to the game page -->
+      <a
+          href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/"
+          class="button"
+          target="_blank"
+          >PLAY NOW</a
+        >
+        <audio id="bg-music" src="../Audio/BGM.mp3" autoplay loop></audio>
+        <img
+      src="https://cdn.iconscout.com/icon/free/png-512/free-speaker-volume-full-icon-download-in-svg-png-gif-file-formats--sound-voice-user-interface-pack-icons-2598129.png?f=webp&w=512"
+      id="mute-btn"
+      alt="Mute/Unmute"
+      title="Mute/Unmute"
+      style="
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+      "
+    /> 
+    <!-- Button created to mute and unmute background music -->
+        </div>
+  </body>
+</html>
